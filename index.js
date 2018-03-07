@@ -16,15 +16,6 @@ const Q = [
     [0, 0, 0, 0, 0, 0]
 ];
 
-const _Q = [
-    [ 0, 0, 0, 0, 400, 0 ],
-    [ 0, 0, 0, 320, 0, 500 ],
-    [ 0, 0, 0, 320, 0, 0 ],
-    [ 0, 400, 256, 0, 400, 0 ],
-    [ 320, 0, 0, 320, 0, 500 ],
-    [ 0, 400, 0, 0, 400, 500 ]
-];
-
 const epsilon = 0.8
 
 // Q(state,action) = R(state,action) + epsilon * Max[Q(next state, all actions)]
